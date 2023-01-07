@@ -92,7 +92,6 @@ main {
 }
 
 .section-title {
-
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 35px;
@@ -167,6 +166,15 @@ main {
 
 /* resume styles */
 
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .resume.section-title {
     font-weight: 700;
     font-size: 35px;
@@ -175,3 +183,32 @@ main {
     margin-bottom: 113px;
 }
 
+.resume-title {
+    margin-top: 113px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.resume-item .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;   
+}
+
+.resume-item .subtitle {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume-item .description {
+    color: #757575;
+}
+
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
