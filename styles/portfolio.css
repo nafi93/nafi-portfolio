@@ -119,3 +119,59 @@ main {
     font-size: 20px;
     color: #474747;
 }
+
+/* what I do styles */
+
+.what-I-do {
+    margin-top: 130px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.do-description {
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 50px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 130px;
+}
+
+.skill-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.skill-description {
+    color: #757575;
+}
+
+/* resume styles */
+
+.resume.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 113px;
+}
+
